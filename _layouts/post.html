@@ -15,9 +15,7 @@ layout: default
                 {% if page.author %}<i class="fa fa-user"></i>{{ page.author }}
                 {% endif %}
             </div>
-            <div class="label-card">
-                <p><i class="fa fa-eye fa-x"></i><span id="busuanzi_value_page_pv"></span></p>
-            </div>
+
             <div class="label-card">
                 {% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}
             </div>
@@ -88,7 +86,9 @@ layout: default
                 </ul>
             </div>
             <!-- 其他div框放到这里 -->
-            <!-- <div class="side">bbbb</div> -->
+            <div>
+
+            </div>
         </div>
     </div>
 </div>
@@ -104,3 +104,5 @@ layout: default
 }());
 </script>
 <script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+
+

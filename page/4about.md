@@ -11,7 +11,8 @@ type: page
 
 ## 关于我
 
-<iframe src="https://githubbadge.appspot.com/gaohaoyang?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+![me](https://github.com/lixiaohanChris/test/blob/master/QQ%E5%9B%BE%E7%89%8720190711182638.jpg?raw=true)
+丑照
 
 毕业于河北师范大学。
 
@@ -41,15 +42,15 @@ type: page
 
 ## 关于本站
 
-**若您想使用这个 jekyll 博客主题，请访问：[https://github.com/Gaohaoyang/gaohaoyang.github.io](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
+**若您想使用这个 jekyll 博客主题，请访问：[https://github.com/lixiaohanChris/lixiaohanChris.github.io](https://github.com/lixiaohanChris/lixiaohanChris.github.io)**
 
 ~欢迎使用~
 
-欢迎大家提一些对本站主题的建议，可以直接在下面留言或者新建一个 [Issue](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues)。
+欢迎大家来讨论，可以直接在下面留言或者新建一个 [Issue](https://github.com/lixiaohanChris/lixiaohanChris.github.io/issues)。
 
 ### Update Log
 
-*2017.2.28*
+*2019.7.11*
 
 * `[^]` 搭建博客
 
