@@ -12,6 +12,8 @@ mathjax: true
 {:toc}
 head first Java第三章
 
+
+
 ## primitive主数据类型
 `byte` 
 `short`
