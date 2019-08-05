@@ -15,25 +15,31 @@ head first Java第一章
 
 
 ## Java的工作方式
+
 1. 编写源代码
 2. 编译器运行源代码并检查错误
 3. 编译器产生字节码
 4. Java虚拟机(JVM)读取执行字节码
+
 ###### 因为JVM在执行，所以可以跨平台，这就是Java酷的地方
 
 ## 我需要做的事
+
 1. 编写源代码，存为`xx.java`
 2. 执行javac程序编译`xx.java`
 3. 编译没有错误就会产生`xx.class`这个文件，由字节码组成的
 4. 启动JVM执行`xx.class`，JVM将这个字节码转化为平台能理解的形式
 
 ---
+
 ###### 题外话
+
 Java的sun公司已经被oracle公司收购了，我一直以为oracle只是个数据库，原来是赞助金州勇士队的甲骨文公司，勇士队的主场就是甲骨文球馆（我又把学习带到了我擅长的领域，勇士总亚军）。
 
 ![库里](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563172214826&di=f21b6a0846beb1261bbc6c45ef3e324c&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201702%2F09%2F20170209233820_xtrLs.thumb.224_0.jpeg)
 
 ## 一些概念
+
 - #### 强类型语言
 
 >   强类型语言也称为强类型定义语言。是一种总是强制类型定义的语言，要求变量的使用要严格符合定义，所有变量都必须先定义后使用。
