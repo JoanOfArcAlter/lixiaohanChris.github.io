@@ -50,8 +50,12 @@ head first Java勘误（转载）
 > 错误：方法调用及变量的生存空间(stack)
 
 > 纠正：方法调用及变量的生存空间栈(stack)
+
 ###### 转载自折耳猫的博客
 * [《Head First Java (中文版)》勘误（更新中）](http://blog.sina.com.cn/s/blog_563880ad0100097j.html)
+
+---
+
 ## 补充
 
 8.　P93　中间右侧黑方块内
@@ -63,6 +67,7 @@ head first Java勘误（转载）
 > 错误：强烈建议你用自己写的类去覆盖掉hastCode()、
 
 > 纠正：强烈建议你用自己写的类去覆盖掉hashCode()、
+
 
 
 **李晓晗**
