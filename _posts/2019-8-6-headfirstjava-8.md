@@ -187,7 +187,7 @@ if(o instanceof Dog){
 
 ###### Java不支持多重继承这种方式，因为多重继承会有称为“致命方块”的问题
 
-![致命方块](https://github.com/lixiaohanChris/test/blob/master/QQ%E5%9B%BE%E7%89%8720190806103155.jpg)
+![致命方块](https://github.com/lixiaohanChris/test/blob/master/QQ%E5%9B%BE%E7%89%8720190806103155.jpg?raw=true)
 
 ###### 这个eat()到底要运行哪个版本？？
 
