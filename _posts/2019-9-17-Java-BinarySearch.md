@@ -2,8 +2,8 @@
 layout: post
 title:  "二分法查找算法的Java实现"
 date:   2019-09-17 12:03:00 +0800
-categories: Java算法
-tags: Java 
+categories: Java
+tags: Java 算法
 author: lxh
 mathjax: true
 ---
