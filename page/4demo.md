@@ -1,7 +1,7 @@
 ﻿---
 layout: page
 title: Demo
-permalink: /demo/
+permalink: /other/
 icon: play
 type: page
 ---
