@@ -2,8 +2,8 @@
 layout: post
 title:  "headfirstjava第一章笔记"
 date:   2019-07-15 11:41:00 +0800
-categories: HeadFirstJava
-tags: Java 
+categories: Java
+tags: Java HeadFirstJava
 author: lxh
 mathjax: true
 ---
