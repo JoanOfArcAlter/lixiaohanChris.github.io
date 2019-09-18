@@ -101,6 +101,35 @@ public class TestCopyFolder {
 
 ```
 
+---
+
+### copyFile方法的改进写法
+
+```
+	public static void copyFile(String src,String dest){
+		//1.创建源
+		File srcFile = new File(src);//被拷贝的文件
+		File destFile = new File(dest);//输出的文件
+		//2.创建流：JDK1.7之后可以在try()里创建不用手动关闭
+		//使用缓冲流装饰字节流可以提高效率
+		try (InputStream is = new BufferedInputStream(new FileInputStream(srcFile));
+			OutputStream os = new BufferedOutputStream(new FileOutputStream(destFile));){
+			//3.操作，分段读取
+			byte[] flush = new byte[3];//1k字节数组
+			int len = -1;//接收长度
+			while((len = is.read(flush))!=-1){
+				os.write(flush, 0, len);//按长度写出
+			}
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+```
 
 
 
