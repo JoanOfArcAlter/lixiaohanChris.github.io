@@ -17,6 +17,7 @@ Java从内部类到Lambda
 ## 从内部类到Lambda
 
 ```
+package com.lxh.thread;
 /**
  * 类到lambda的转化
  * @author lxh
