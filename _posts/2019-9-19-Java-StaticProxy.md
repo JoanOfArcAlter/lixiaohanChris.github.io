@@ -17,6 +17,7 @@ Java静态代理模式的简单实现
 ## 静态代理模式的简单实现
 
 ```
+package com.lxh.thread;
 /**
  * 静态代理的简单实现
  * @author lxh
